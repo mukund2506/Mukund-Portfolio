@@ -80,7 +80,8 @@ button:hover {
     .header {
         background: white;
         width: 80%;
-        height: 65%;
+        height:30%;
+        border-radius: 24px;
     }
 }
 /* footer */
@@ -90,6 +91,7 @@ p {
     font-family: sans-serif;
     background-color: #fff;
     padding-bottom: 15px;
+    border-radius: 30px;
 }
 
 /* CSS for tablets */
@@ -98,7 +100,8 @@ p {
     .header {
         background: white;
         width: 80%;
-        height: 65%;
+        height: 50%;
+        border-radius: 24px;
     }
 }
 
@@ -108,5 +111,6 @@ p {
     .header {
         /* Example laptop styles */
         background-color: rgb(255, 255, 255);
+        border-radius: 24px;
     }
 }
