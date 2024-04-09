@@ -25,6 +25,8 @@ body {
 /* Style the header */
 .header {
 	text-align: center;
+    width: 30%;
+    height: 60%;
 }
 
 /* Style the h1 element */
@@ -42,7 +44,7 @@ hr {
 
 /* Style the input field */
 input[type="text"] {
-	width: 100%;
+	width: 60%;
 	padding: 10px;
 	font-size: 16px;
 	border: 1px solid #ccc;
@@ -52,19 +54,20 @@ input[type="text"] {
 
 /* Style the QR code div */
 .qrcode {
-	margin: 20px 0;
+	margin:5% 25%;
 }
 
 /* Style the button */
 button {
-	background-color: #007bff;
-	color: #fff;
-	padding: 10px 20px;
-	font-size: 16px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	outline: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
 }
 
 /* Hover effect for the button */
@@ -78,6 +81,14 @@ button:hover {
         /* Example mobile styles */
         background-color: lightblue;
     }
+}
+/* footer */
+p {
+    font-size: 16px;
+    color: gray;
+    font-family: sans-serif;
+    background-color: #fff;
+    padding-bottom: 15px;
 }
 
 /* CSS for tablets */
