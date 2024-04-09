@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="./home.css" />
+
+	<!-- External QR code library -->
+	<!--This is the liberary which helps
+		to convert simple data to the images-->
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<div class="box">
+			<h1>
+				QR Code Generator
+			</h1>
+			<hr />
+			<input type="text"
+				placeholder="Type Data To Genrate a data"
+				onchange="generateQr()" />
+		</div>
+        <div class="sqrcode"></div>
+        <div class="qrcode"></div>
+	</div>
+	<script src="./home.js"></script>
+</body>
+
+</html>
