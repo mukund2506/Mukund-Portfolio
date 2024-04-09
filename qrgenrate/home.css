@@ -96,8 +96,8 @@ p {
     /* Define styles for tablets here */
     .header {
         background: white;
-        width: 50%;
-        height: 45%;
+        width: 70%;
+        height: 30%;
         border-radius: 24px;
     }
 	.qrcode {
