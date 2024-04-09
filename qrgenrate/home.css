@@ -99,8 +99,11 @@ p {
         background: white;
         width: 80%;
         border-radius: 24px;
-	    height:50%;
+         height:50%;
     }
+	*{
+	font-size:40px;
+	}
     .qrcode {
         margin: 20% 30%;
     }
