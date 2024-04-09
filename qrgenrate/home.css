@@ -91,18 +91,19 @@ p {
     font-family: sans-serif;
 }
 
+
 /* CSS for tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* Define styles for tablets here */
     .header {
         background: white;
-        width: 70%;
-        height: 45%;
+        width: 80%;
+        height: 60%;
         border-radius: 24px;
     }
-	.qrcode {
-    margin: 20% 30%;
-}
+    .qrcode {
+        margin: 20% 30%;
+    }
 }
 
 /* CSS for laptops and larger screens */
@@ -112,6 +113,6 @@ p {
         /* Example laptop styles */
         background-color: rgb(255, 255, 255);
         border-radius: 24px;
-        height: 55%;
+        height: 70%;
     }
 }
