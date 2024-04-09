@@ -78,8 +78,9 @@ button:hover {
 @media only screen and (max-width: 767px) {
     /* Define styles for mobile devices here */
     .header {
-        /* Example mobile styles */
-        background-color: lightblue;
+        background: white;
+        width: 80%;
+        height: 65%;
     }
 }
 /* footer */
@@ -88,41 +89,17 @@ p {
     color: gray;
     font-family: sans-serif;
     background-color: #fff;
-	padding:15px;
+    padding-bottom: 15px;
 }
-input[type="text"] {
-	width: 60%;
-	padding: 10px;
-	font-size: 16px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	outline: none;
-}
+
 /* CSS for tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* Define styles for tablets here */
     .header {
-        /* Example tablet styles */
-        background-color: black;
-	    color:white;
-   }
-	
-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    width: 20%;
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none;
-}
-
-/* Hover effect for the button */
-button:hover {
-	background-color: #0056b3;
-}
+        background: white;
+        width: 80%;
+        height: 65%;
+    }
 }
 
 /* CSS for laptops and larger screens */
